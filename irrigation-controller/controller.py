@@ -1,7 +1,7 @@
 import json
 import time
 import paho.mqtt.client as mqtt
-BROKER_HOST = "localhost"
+BROKER_HOST = "broker.hivemq.com"
 BROKER_PORT = 1883
 SUB_TOPIC = "bf/campo/+/sensor/+/telemetry"
 FIELD_ID = 1
