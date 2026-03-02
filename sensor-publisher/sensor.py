@@ -2,7 +2,7 @@ import json
 import random
 import time
 import paho.mqtt.client as mqtt
-BROKER_HOST = "localhost"
+BROKER_HOST = "broker.hivemq.com"
 BROKER_PORT = 1883
 FIELD_ID = 1
 SENSOR_ID = "soil_01"
